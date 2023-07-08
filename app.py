@@ -32,8 +32,8 @@ class Alumno(db.Model):
     id = db.Column(db.Integer, primary_key = True)
     nombre = db.Column(db.String(100))
     apellido = db.Column(db.String(400))
-    DNI = db.Column(db.Integer)
-    telefono = db.Column(db.Integer)
+    DNI = db.Column(db.String(400))
+    telefono = db.Column(db.String(400))
    
 
 
